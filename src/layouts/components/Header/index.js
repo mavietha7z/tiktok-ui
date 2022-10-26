@@ -84,12 +84,12 @@ function Header() {
         {
             icon: <FontAwesomeIcon icon={faCamera} />,
             title: 'LIVE Studio',
-            to: '/setting',
+            to: '/studio',
         },
         {
             icon: <FontAwesomeIcon icon={faGear} />,
             title: 'Settings',
-            to: '/feedback',
+            to: '/setting',
         },
         ...MENU_ITEMS,
         {
